@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from './components/page/LandingPage'
 import AboutPage from './components/page/AboutPage'
 import ContactPage from './components/page/ContactPage'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </>
   )
