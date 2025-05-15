@@ -31,7 +31,7 @@ export const auditLogscolumn = [
   {
     field: "timestamp",
     headerName: "TimeStamp",
-    width: 220,
+    width: 220, 
     editable: false,
     headerAlign: "center",
     disableColumnMenu: true,

@@ -13,4 +13,4 @@ const Buttons = ({ disabled, children, className, onClickhandler, type }) => {
   );
 };
 
-export default Buttons;
+export default Buttons; 
